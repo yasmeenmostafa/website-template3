@@ -1,0 +1,298 @@
+body {
+
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+header {
+    background-image: url("img/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.layer h1 {
+    font-size: 50px;
+}
+
+.layer h2 {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.layer h2::after {
+ 
+    content: " |";
+    
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+
+    0% {
+        content: " L |"
+    }
+
+    5% {
+        content: " La |"
+    }
+
+    7% {
+        content: " Lar |"
+    }
+
+    10% {
+        content: " Larr |"
+    }
+
+    15% {
+        content: " Larry |"
+    }
+
+    17% {
+        content: " Larry  |"
+    }
+
+    20% {
+        content: " Larry D |"
+    }
+
+    25% {
+        content: " Larry Da |"
+    }
+
+    30% {
+        content: " Larry Dan |"
+    }
+
+    35% {
+        content: " Larry  Dani |"
+    }
+
+    38% {
+        content: " Larry  Dania |"
+    }
+
+    44% {
+        content: " Larry  Danial |"
+    }
+
+    50% {
+        content: " Larry  Danials |"
+    }
+
+    55% {
+        content: " Larry  Danial |"
+    }
+
+    59% {
+        content: " Larry  Dania |"
+    }
+
+    63% {
+        content: " Larry  Dani |"
+    }
+
+    67% {
+        content: " Larry  Dan |"
+    }
+
+    72% {
+        content: " Larry  Da |"
+    }
+
+    78% {
+        content: " Larry  D |"
+    }
+
+    84% {
+        content: " Larry  |"
+    }
+
+    88% {
+        content: " Larr |"
+    }
+
+    92% {
+        content: " Lar |"
+    }
+
+    95% {
+        content: " La |"
+    }
+
+    98% {
+        content: " L |"
+    }
+
+    100% {
+        content: "  |"
+    }
+}
+nav{
+    z-index: 3333;
+}
+ header li{
+    background-color:black;
+    width: 30px;
+    height: 30px;
+}
+.homeborder{
+    border-bottom:2px solid white;
+}
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 800;
+}
+.nav-link{
+    font-size: 14px;
+}
+#services{
+    font-family: Poppins, sans-serif;
+    
+}
+.sectiontitle h2{
+    font-size: 45px;
+    font-weight:900;
+    font-family: Montserrat, sans-serif;
+    
+}
+.serviceicon{
+    background-color: rgb(250, 246, 246);
+    width: 70px;
+    height:70px;
+    
+}
+.service:hover .serviceicon{
+    background-color: black;
+    color:white;
+    transition-duration: 0.5s;
+}
+.carousel-indicators button[data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(90, 88, 88);
+
+}
+.serviceicon:hover{
+    background-color: black;
+    color:white;
+    transition-duration: 0.5s;
+}
+.form-control{
+    background-color: rgb(244,244,244);
+}
+#contact button{
+    width: 110px;
+    background-color: black;
+    color: white;
+}
+#contact input {
+    background-color: rgb(244,244,244);
+}
+#contact textarea {
+    background-color: rgb(244,244,244);
+}
+
+#contact button:hover{
+    background-color: white;
+    border:1px solid black;
+    color:black;
+}
+#works .nav-link{
+    border:none ;
+}
+#works .nav-tabs{
+    border:none ;
+
+}
+#works .nav-link:hover{
+    border-bottom: 2px solid black;
+}
+.blogimg:hover img{
+    
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+   
+   
+    
+}
+.blogimg{
+    overflow: hidden;
+    transition-property: transform();
+
+    
+}
+#about{
+    font-family: Montserrat, sans-serif;
+
+}
+.abouttitle h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight:800;
+}
+#about p{
+    font-size:15px ;
+}
+.progress p span{
+    font-size: 13px;
+}
+.btn1{
+    border :2px solid black;
+    color:white;
+    background-color: black;
+}
+.btn1:hover{
+    background-color: white;
+    color:black;
+}
+.btn2{
+    background-color: white;
+}
+.btn2:hover{
+    color:white;
+    background-color: black;
+    border:white
+}
+.hero{
+    position: absolute;
+    top:-15%;
+    left:2%
+
+}
+
+.worklayer{
+
+ position: absolute;
+ z-index: 4;
+ top:100%;
+ left:5px;
+ right:5px;
+ bottom: 5px;
+ /* width:100%;
+ height:100%; */
+ background-color:rgba(255, 255, 255, 0.8);
+ /* background-color: aquamarine; */
+ overflow: hidden;
+ transition:top 0.3s;
+
+}
+ .work:hover .worklayer{
+    top:5px;
+}
+.worklayer-icon{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color:white
+}   
+ 
+
